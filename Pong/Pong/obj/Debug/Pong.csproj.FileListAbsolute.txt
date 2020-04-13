@@ -1,0 +1,13 @@
+C:\Users\mtome\Desktop\Pong\Pong\Pong\bin\Debug\Pong.exe.config
+C:\Users\mtome\Desktop\Pong\Pong\Pong\bin\Debug\Pong.exe
+C:\Users\mtome\Desktop\Pong\Pong\Pong\bin\Debug\Pong.pdb
+C:\Users\mtome\Desktop\Pong\Pong\Pong\obj\Debug\Pong.csprojAssemblyReference.cache
+C:\Users\mtome\Desktop\Pong\Pong\Pong\obj\Debug\Pong.HostOrConnect.resources
+C:\Users\mtome\Desktop\Pong\Pong\Pong\obj\Debug\Pong.Properties.Resources.resources
+C:\Users\mtome\Desktop\Pong\Pong\Pong\obj\Debug\Pong.csproj.GenerateResource.cache
+C:\Users\mtome\Desktop\Pong\Pong\Pong\obj\Debug\Pong.csproj.CoreCompileInputs.cache
+C:\Users\mtome\Desktop\Pong\Pong\Pong\obj\Debug\Pong.exe
+C:\Users\mtome\Desktop\Pong\Pong\Pong\obj\Debug\Pong.pdb
+C:\Users\mtome\Desktop\Pong\Pong\Pong\obj\Debug\Pong.ServerGUI.resources
+C:\Users\mtome\Desktop\Pong\Pong\Pong\obj\Debug\Pong.ServerOptions.resources
+C:\Users\mtome\Desktop\Pong\Pong\Pong\obj\Debug\Pong.PongGame.resources
