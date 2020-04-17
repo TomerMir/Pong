@@ -210,15 +210,6 @@ namespace Pong
                     this.ballXSpeed = AddAbsolute(this.ballXSpeed, 1);
                     this.ballYSpeed = AddAbsolute(this.ballYSpeed, 1);
                     this.ballXSpeed = -this.ballXSpeed;
-                }                
-
-                else if (this.ballTop <= this.playgroundTop)
-                {
-                    this.ballYSpeed = -this.ballYSpeed;
-                }
-                else if (this.ballBottom >= this.playgroundBotom)
-                {
-                    this.ballYSpeed = -this.ballYSpeed;
                 }
                 else if (this.ballLeft < secondPlayerRacketRight - 10)
                 {
@@ -230,6 +221,16 @@ namespace Pong
                     this.winner = 2;
                     break;
                 }
+
+                if (this.ballTop <= this.playgroundTop)
+                {
+                    this.ballYSpeed = -this.ballYSpeed;
+                }
+                if (this.ballBottom >= this.playgroundBotom)
+                {
+                    ballYSpeed = -this.ballYSpeed;
+                }
+                
                 Thread.Sleep(Constants.SLEEPTIME);
             }
         }
