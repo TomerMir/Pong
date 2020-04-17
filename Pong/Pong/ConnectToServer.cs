@@ -25,14 +25,21 @@ namespace Pong
         {
             try
             {
-                Client server = new Client(this.ipBox.Text, Program.PORT);
+                Client server = new Client(this.ipBox.Text, Constants.PORT);
                 this.Hide();
                 this.pongForm.server = server;
                 pongForm.Show();
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "error");
+                if (ex.GetType().Equals(typeof(SocketException)))
+                {
+                    MessageBox.Show("Can't connect to server", "error");
+                }
+                else
+                {
+                    MessageBox.Show(ex.GetType().ToString(), "error");
+                }
             }
         }
 

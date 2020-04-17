@@ -8,7 +8,6 @@ namespace Pong
 {
     static class Program
     {
-        public const int PORT = 5000;
         /// <summary>
         /// The main entry point for the application.
         /// </summary>

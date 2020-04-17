@@ -14,7 +14,7 @@ namespace Pong
         private TcpListener listener;
         public Server()
         {
-            this.listener = new TcpListener(IPAddress.Any, Program.PORT);
+            this.listener = new TcpListener(IPAddress.Any, Constants.PORT);
         }
         public Client WaitForPlayer()
         {
